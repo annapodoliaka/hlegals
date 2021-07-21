@@ -1,0 +1,28 @@
+.modal-nav-close-button {
+  color: $accent-color;
+  font-size: 40px;
+  line-height: 1;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.mobile-nav {
+  padding-top: 28px;
+}
+.mobile-nav__list-item {
+  margin-bottom: 12px;
+}
+.mobile-nav__link {
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: $grey-bg-color;
+  color: $active-regular-color;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: (28 / 24);
+  border-radius: 12px;
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+  }
+}

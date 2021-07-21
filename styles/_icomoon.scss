@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../icomoon/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  
+.icon-case:before {
+  content: "\e900";
+}
+.icon-case-about:before {
+  content: "\e901";
+}
+.icon-crowdfunding:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-iconfinder-shopping-purse:before {
+  content: "\e904";
+}
+.icon-flag-about:before {
+  content: "\e905";
+}
+.icon-hand-together:before {
+  content: "\e906";
+}
+.icon-lawyer:before {
+  content: "\e907";
+}
+.icon-scroll-down:before {
+  content: "\e908";
+}
+.icon-security:before {
+  content: "\e909";
+}
+.icon-star-about:before {
+  content: "\e90a";
+}
