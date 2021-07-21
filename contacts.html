@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <header class="contacts-section-header">
+    <div class="container d-none d-xl-block container-contacts-section">
+      <div class="row">
+        <div class="col-3">
+          <a href="/" aria-label="home page">
+            <img src="./images/logo-contacts-desktop.svg" width="400" height="60" alt="hlegals logo" aria-hidden="true">
+          </a>
+        </div>
+        <div class="col-6 offset-3">
+          <div class="d-flex justify-content-end align-items-center">
+            <ul class="contacts-section-info-list">
+              <li class="contacts-section-info-list__item">
+                <ul class="toggle-lang-contacts">
+                  <li class="toggle-lang__list-item-contacts">
+                    <a href="" class="toggle-lang__link toggle-lang__link-contacts--active">УК</a>
+                  </li>
+                  <li class="toggle-lang__list-item-contacts">
+                    <a href="" class="toggle-lang__link-contacts">РУ</a>
+                  </li>
+                  <li class="toggle-lang__list-item-contacts">
+                    <a href="" class="toggle-lang__link-contacts">EN</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="contacts-section-info-list__item">
+                <a href="" class="address-contacts-section">
+                  Одеса, Адміральський пр.,3
+                </a>
+              </li>
+              <span class="bullet"></span>
+              <li class="contacts-section-info-list__item">
+                <a href="tel:+38(050)3901595" class="contacts-section-phone">+38 (050) 390 15 95</a>
+              </li>
+              <span class="bullet"></span>
+              <li class="contacts-section-info-list__item">
+                <span class="icon icon-facebook"></span>
+              </li>
+            </ul>
+          </div>
+          <nav class="desktop-nav-contacts">
+            <ul class="desktop-nav__list-contacts">
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./about.html" class="desktop-nav__link-contacts">
+                  про нас
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./services.html" class="desktop-nav__link-contacts">
+                  послуги
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./team.html" class="desktop-nav__link-contacts">
+                  команда
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./publications.html" class="desktop-nav__link-contacts">
+                  публікації
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./contacts.html" class="desktop-nav__link-contacts desktop-nav__link-contacts--active">
+                  контакти
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container d-xl-none">
+      <div class="d-flex justify-content-between align-items-center align-items-baseline nav-bar">
+        <ul class="toggle-lang-contacts">
+          <li class="toggle-lang__list-item-contacts">
+            <a href="" class="toggle-lang__link-contacts toggle-lang__link-contacts--active">УК</a>
+          </li>
+          <li class="toggle-lang__list-item-contacts">
+            <a href="" class="toggle-lang__link-contacts">РУ</a>
+          </li>
+          <li class="toggle-lang__list-item-contacts">
+            <a href="" class="toggle-lang__link-contacts">EN</a>
+          </li>
+        </ul>
+        <a href="tel:+38(050)3901595" class="contacts-section-phone-header">+38 (050) 390 15 95</a>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="/" aria-label="home page">
+          <img src="./images/logo-contacts-mobile.svg" alt="hlegals logo" aria-hidden="true">
+        </a>
+        <button class="nav-button d-xl-none" type="button" data-toggle="modal" data-target="#nav_modal">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 10H25" stroke="#323264" stroke-width="2"/>
+            <path d="M7 16H25" stroke="#323264" stroke-width="2"/>
+            <path d="M7 22H25" stroke="#323264" stroke-width="2"/>
+            </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="contacts-main-section">
+        <div class="mobile-desctop-contacts">
+          <div class="mobile-desktop-address-bar">
+            <ul>
+              <li class="list-address">
+                <a href="" class="address-contacts-bar">
+                  <span class="address-town">Одеса,</span> <br>
+                  <span>Адміральський пр.,3</span>
+                </a>
+              </li>
+              <li class="list-tel">
+                <a href="tel:+38(050)3901591" class="contacts-section-tel">+38 (050) 390 15 91</a>
+              </li>
+              <li class="list-mail">
+                <a href="mailto:contact@hlegals.net" class="contacts-section-mail">contact@hlegals.net</a>
+              </li>
+              <li>
+                <a href="" class="facebook-contacts">Наша сторінка в фейсбуці</a>
+              </li>
+            </ul>
+          </div>
+          <div class="form-mobile-desktop-contacts">
+            <form class="contacts-form">
+              <span class="form-title">
+                Ми хотіли б Вам допомогти
+              </span>
+              <div class="input-wrapper">
+                <input class="form-items" type="text" name="user first name" placeholder="Iм’я" required>
+                <textarea class="form-items" name="user about yourself"  rows="6" placeholder="Повідомлення"></textarea>
+              </div>
+              <span class="form-descr">
+                Як вам відповісти?
+              </span> 
+              <div  class="input-wrapper">
+                <input class="form-items" type="tel" name="user phone number" placeholder="Номер телефона">
+                <input class="form-items" type="email" name="user email" placeholder="Чи email">
+              </div> 
+            </form>
+            <div class="button-contacts-wrapper">
+              <button class="button-contacts">
+                Надіслати запит
+              </button>
+            </div>
+          </div>
+        </div> 
+        <iframe class="iframe-contacts" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2749.6384674723654!2d30.737941415590278!
+                    3d46.43604497912456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63396894457b7%3A0x7f
+                    6c5236cbcb70c8!2z0JDQtNC80LjRgNCw0LvRjNGB0LrQuNC5INC_0YDQvtGB0L8uLCAzLCDQntC00LXRgdGB0LAsINCe0L
+                    TQtdGB0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1sru!2sua!4v1626623871600!5m2!1sru!2sua" 
+                    width="100%" height="700" style="border:0;" loading="lazy">
+        </iframe> 
+    </section>
+  </main>
+  <footer>
+    <section class="footer-section">
+      <div class="container d-flex flex-direction-column align-items-center container-desktop-footer">
+        <div class="group-address-contacts-section-contacts">
+          <div class="group-address-contacts">
+            <h1 class="title-footer">
+              Одеса, Адміральський пр., 3
+            </h1>
+            <span class="bullet"></span>
+            <p class="descr-footer">
+              Подивитися на мапі
+            </p>
+          </div>
+          <div class="group-contacts-section-contacts">
+            <ul class="nav-footer">
+              <li class="nav-footer-list-item">
+                <a href="" class="nav-footer-link">
+                  <span class="icon icon-facebook"></span></a>
+              </li>
+              <span class="bullet"></span>
+              <li class="nav-footer-list-item">
+                <a href="tel:+38(050)3901591" class="nav-footer-tel">+38 (050) 390 15 91</a>
+              </li>
+              <span class="bullet"></span>
+              <li class="nav-footer-list-item">
+                <a href="mailto:contact@hlegals.net" class="nav-footer-email">contact@hlegals.net</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div right-column>
+          <span class="footer-end">© 2021 ТОВ Юридична компанія «HLEGALS»</span>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+  <div class="modal fade" id="nav_modal" tabindex="-1" aria-labelledby="navigation" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="d-flex justify-content-end">
+            <button type="button" class="modal-nav-close-button" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <nav class="mobile-nav">
+            <ul class="mobile-nav__list">
+              <li class="mobile-nav__list-item">
+                <a href="./about.html" class="mobile-nav__link">про нас</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./services.html" class="mobile-nav__link">послуги</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./team.html" class="mobile-nav__link">команда</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./publications.html" class="mobile-nav__link">публікації</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./contacts.html" class="mobile-nav__link">контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./bootstrap/js/dist/util.js"></script>
+  <script src="./bootstrap/js/dist/modal.js"></script>
+</body>
+</html>
