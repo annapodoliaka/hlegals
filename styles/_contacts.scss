@@ -117,6 +117,11 @@
   line-height: (30 / 21);
   color: $active-regular-color;
 }
+.facebook-contacts-link {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
 .facebook-contacts {
   font-size: 12px;
   line-height: (16 / 12);
@@ -124,6 +129,7 @@
   text-transform: uppercase;
   font-weight: 600;
   color: $active-regular-color;
+  padding-right: 24px;
 }
 .nav-button {
   padding: 8px 0 8px 8px;
@@ -131,7 +137,7 @@
 .contacts-section-info-list {
   display: flex;
   align-items: center;
-  align-items: baseline;
+  align-items: center;
 }
 .desktop-nav__list-contacts {
   display: flex;
@@ -269,6 +275,10 @@ textarea {
   text-transform: uppercase;
   color: $active-regular-color;
   padding-bottom: 4px;
+  padding-left: 24px;
+  @include media-breakpoint-up(xl) {
+    padding-left: 1px;
+  }
 }
 .nav-footer-tel {
   font-size: 16px;
@@ -312,7 +322,7 @@ textarea {
 .nav-footer {
   @include media-breakpoint-up(xl) {
     display: flex;
-    align-items: baseline;
+    align-items: center;
   }
 }
 .bullet {
@@ -322,4 +332,20 @@ textarea {
   border-radius: 50%;
   margin-left: 10px;
   margin-right: 10px;
+}
+.icon-facebook {
+  color: $grey-bg-text-color;
+}
+.icon-facebook-colored {
+  font-size: 36px;
+  padding-right: 10px;
+  color: $active-regular-color;
+}
+.icon-facebook-colored2 {
+  font-size: 36px;
+  color: $active-regular-color;
+  padding-left: 52px;
+  @include media-breakpoint-up(xl) {
+    padding-left: 1px;
+  }
 }

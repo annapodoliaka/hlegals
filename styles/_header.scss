@@ -35,11 +35,6 @@
 .toggle-lang__link--active {
   background-color: $accent-color;
   color: white;
-  &:hover {
-    background-color: $accent-color;
-    color: white;
-    text-decoration: none;
-  }
 }
 .header-phone {
   color: $grey-bg-text-color;
@@ -69,13 +64,13 @@
   display: flex;
   align-items: center;
 }
-// .header-info-list__item {
-//   padding-left: 16px;
-// }
 .desktop-nav__list {
   display: flex;
   justify-content: flex-end;
   padding-top: 14px;
+}
+.icon-facebook-header {
+  color: white;
 }
 .desktop-nav__link {
   font-size: 18px;
@@ -83,7 +78,15 @@
   color: white;
   padding-left: 16px;
   &:hover {
-    color: $accent-color;
+    background-color: $accent-color;
     text-decoration: none;
   }
+}
+.bullet-header {
+  width: 6px; 
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
 }

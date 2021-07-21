@@ -1,10 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?5jrnyf');
-  src:  url('fonts/icomoon.eot?5jrnyf#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?5jrnyf') format('truetype'),
-    url('fonts/icomoon.woff?5jrnyf') format('woff'),
-    url('fonts/icomoon.svg?5jrnyf#icomoon') format('svg');
+  src:  url('../icomoon/icomoon.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -19,42 +15,42 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
+  
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.icon-icon-case:before {
+  
+.icon-case:before {
   content: "\e900";
 }
-.icon-icon-case-about:before {
+.icon-case-about:before {
   content: "\e901";
 }
-.icon-icon-crowdfunding:before {
+.icon-crowdfunding:before {
   content: "\e902";
 }
-.icon-icon-facebook:before {
+.icon-facebook:before {
   content: "\e903";
 }
-.icon-iconfinder_shopping-purse:before {
+.icon-iconfinder-shopping-purse:before {
   content: "\e904";
 }
-.icon-icon-flag-about:before {
+.icon-flag-about:before {
   content: "\e905";
 }
-.icon-icon-hand-together:before {
+.icon-hand-together:before {
   content: "\e906";
 }
-.icon-icon-lawyer:before {
+.icon-lawyer:before {
   content: "\e907";
 }
-.icon-icon-scroll-down:before {
+.icon-scroll-down:before {
   content: "\e908";
 }
-.icon-icon-security:before {
+.icon-security:before {
   content: "\e909";
 }
-.icon-icon-star-about:before {
+.icon-star-about:before {
   content: "\e90a";
 }

@@ -2111,10 +2111,69 @@ template {
 }
 
 @font-face {
-  font-family: "icomoon";
+  font-family: 'icomoon';
   src: url("../icomoon/icomoon.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-case:before {
+  content: "\e900";
+}
+
+.icon-case-about:before {
+  content: "\e901";
+}
+
+.icon-crowdfunding:before {
+  content: "\e902";
+}
+
+.icon-facebook:before {
+  content: "\e903";
+}
+
+.icon-iconfinder-shopping-purse:before {
+  content: "\e904";
+}
+
+.icon-flag-about:before {
+  content: "\e905";
+}
+
+.icon-hand-together:before {
+  content: "\e906";
+}
+
+.icon-lawyer:before {
+  content: "\e907";
+}
+
+.icon-scroll-down:before {
+  content: "\e908";
+}
+
+.icon-security:before {
+  content: "\e909";
+}
+
+.icon-star-about:before {
+  content: "\e90a";
 }
 
 @font-face {
@@ -2149,7 +2208,7 @@ template {
 }
 
 body {
-  font-family: "TT Norms";
+  font-family: "TT Norms", sans-serif;
 }
 
 ul,
@@ -2373,6 +2432,16 @@ button {
   color: #24A3FF;
 }
 
+.facebook-contacts-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
 .facebook-contacts {
   font-size: 12px;
   line-height: 1.33333;
@@ -2380,6 +2449,7 @@ button {
   text-transform: uppercase;
   font-weight: 600;
   color: #24A3FF;
+  padding-right: 24px;
 }
 
 .nav-button {
@@ -2393,9 +2463,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: center;
 }
 
 .desktop-nav__list-contacts {
@@ -2595,6 +2663,13 @@ textarea {
   text-transform: uppercase;
   color: #24A3FF;
   padding-bottom: 4px;
+  padding-left: 24px;
+}
+
+@media (min-width: 1200px) {
+  .descr-footer {
+    padding-left: 1px;
+  }
 }
 
 .nav-footer-tel {
@@ -2661,9 +2736,9 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -2674,6 +2749,28 @@ textarea {
   border-radius: 50%;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.icon-facebook {
+  color: #B3B3BA;
+}
+
+.icon-facebook-colored {
+  font-size: 36px;
+  padding-right: 10px;
+  color: #24A3FF;
+}
+
+.icon-facebook-colored2 {
+  font-size: 36px;
+  color: #24A3FF;
+  padding-left: 52px;
+}
+
+@media (min-width: 1200px) {
+  .icon-facebook-colored2 {
+    padding-left: 1px;
+  }
 }
 
 .main-header {
@@ -2724,12 +2821,6 @@ textarea {
 .toggle-lang__link--active {
   background-color: #F0145A;
   color: white;
-}
-
-.toggle-lang__link--active:hover {
-  background-color: #F0145A;
-  color: white;
-  text-decoration: none;
 }
 
 .header-phone {
@@ -2783,6 +2874,10 @@ textarea {
   padding-top: 14px;
 }
 
+.icon-facebook-header {
+  color: white;
+}
+
 .desktop-nav__link {
   font-size: 18px;
   line-height: 1.16667;
@@ -2791,8 +2886,17 @@ textarea {
 }
 
 .desktop-nav__link:hover {
-  color: #F0145A;
+  background-color: #F0145A;
   text-decoration: none;
+}
+
+.bullet-header {
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .home-hero-section {
