@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <header class="contacts-section-header">
+    <div class="container d-none d-xl-block container-contacts-section">
+      <div class="row">
+        <div class="col-3">
+          <a href="/" aria-label="home page">
+            <img src="./images/logo-team.svg" width="400" height="60" alt="hlegals logo" aria-hidden="true">
+          </a>
+        </div>
+        <div class="col-6 offset-3">
+          <div class="d-flex justify-content-end align-items-center">
+            <ul class="contacts-section-info-list">
+              <li class="contacts-section-info-list__item">
+                <ul class="toggle-lang-contacts">
+                  <li class="toggle-lang__list-item-contacts">
+                    <a href="" class="toggle-lang__link toggle-lang__link-contacts--active">УК</a>
+                  </li>
+                  <li class="toggle-lang__list-item-contacts">
+                    <a href="" class="toggle-lang__link-contacts">РУ</a>
+                  </li>
+                  <li class="toggle-lang__list-item-contacts">
+                    <a href="" class="toggle-lang__link-contacts">EN</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="contacts-section-info-list__item">
+                <a href="" class="address-contacts-section">
+                  Одеса, Адміральський пр.,3
+                </a>
+              </li>
+              <span class="bullet"></span>
+              <li class="contacts-section-info-list__item">
+                <a href="tel:+38(050)3901591" class="contacts-section-phone">+38 (050) 390 15 91</a>
+              </li>
+              <span class="bullet"></span>
+              <li class="contacts-section-info-list__item">
+                <a href="" class="facebook-link-header">
+                  <span class="icon-facebook"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="desktop-nav-contacts">
+            <ul class="desktop-nav__list-contacts">
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./about.html" class="desktop-nav__link-contacts">
+                  про нас
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./services.html" class="desktop-nav__link-contacts">
+                  послуги
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./team.html" class="desktop-nav__link-contacts desktop-nav__link-contacts--active">
+                  команда
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./publications.html" class="desktop-nav__link-contacts">
+                  публікації
+                </a>
+              </li>
+              <li class="desktop-nav__list-item-contacts">
+                <a href="./contacts.html" class="desktop-nav__link-contacts">
+                  контакти
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container d-xl-none">
+      <div class="d-flex justify-content-between align-items-center align-items-baseline nav-bar">
+        <ul class="toggle-lang-contacts">
+          <li class="toggle-lang__list-item-contacts">
+            <a href="" class="toggle-lang__link-contacts toggle-lang__link-contacts--active">УК</a>
+          </li>
+          <li class="toggle-lang__list-item-contacts">
+            <a href="" class="toggle-lang__link-contacts">РУ</a>
+          </li>
+          <li class="toggle-lang__list-item-contacts">
+            <a href="" class="toggle-lang__link-contacts">EN</a>
+          </li>
+        </ul>
+        <a href="tel:+38(050)3901595" class="contacts-section-phone-header">+38 (050) 390 15 95</a>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="/" aria-label="home page">
+          <img src="./images/logo-contacts-mobile.svg" alt="hlegals logo" aria-hidden="true">
+        </a>
+        <button class="nav-button d-xl-none" type="button" data-toggle="modal" data-target="#nav_modal">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 10H25" stroke="#323264" stroke-width="2"/>
+            <path d="M7 16H25" stroke="#323264" stroke-width="2"/>
+            <path d="M7 22H25" stroke="#323264" stroke-width="2"/>
+            </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="team-section">
+      <div class="container">
+        <span class="title-team-section">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, 
+              вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+        </span>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
+            <div class="img-wrap-team">
+              <picture>
+                <source media="(min-width: 1400px)" 
+                        srcset="./images/maiboroda-desk-1x.webp 1x, 
+                                ./images/maiboroda-desk-2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1400px)" 
+                        srcset="./images/maiboroda-desk-1x.jpg 1x, 
+                                ./images/maiboroda-desk-2x.jpg 2x" type="image/jpeg">
+                <source srcset="./images/maiboroda-mob-1x.webp 1x, 
+                                ./images/maiboroda-mob-2x.webp 2x" type="image/webp">
+                <source srcset="./images/maiboroda-mob-1x.jpg 1x, 
+                                ./images/maiboroda-mob-2x.jpg 2x" type="image/jpeg">
+                <img class="img-team-section" src="./images/maiboroda-desk-1x.jpg" alt="">
+              </picture>
+            </div>
+            <div class="about-member-wrap">
+                <div class="nav-team-section">
+                  <div class="nav-team-section__list-item">
+                    <a class="nav-team-section__link" href="">
+                      <div class="about-member-team">
+                        <div class="name-position">
+                          <span class="team-member">Денис Майборода</span>
+                          <span class="position-team">Керуючий партнер</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="nav-team-section__list-item-1">
+                    <a href="">
+                      <div class="wrap-arrow">
+                        <span class="arrow"></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
+            <div class="img-wrap-team">
+              <picture>
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/oleksandrovskii-desk-1x.webp 1x, 
+                                ./images/oleksandrovskii-desk-2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/oleksandrovskii-desk-1x.jpg 1x, 
+                                ./images/oleksandrovskii-desk-2x.jpg 2x" type="image/jpeg">
+                <source srcset="./images/oleksandrovskii-mob-1x.webp 1x, 
+                                ./images/oleksandrovskii-mob-2x.webp 2x" type="image/webp">
+                <source srcset="./images/oleksandrovskii-mob-1x.jpg 1x, 
+                                ./images/oleksandrovskii-mob-2x.jpg 2x" type="image/jpeg">
+                <img class="img-team-section" src="./images/oleksandrovskii-desk-1x.jpg" alt="">
+              </picture>
+            </div>
+            <div class="about-member-wrap">
+              <div class="nav-team-section">
+                <div class="nav-team-section__list-item">
+                  <a class="nav-team-section__link" href="">
+                    <div class="about-member-team">
+                      <div class="name-position">
+                        <span class="team-member team-member1">Олександр Олександровський</span>
+                        <span class="position-team">Equity partner</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="nav-team-section__list-item-1">
+                  <a href="">
+                    <div class="wrap-arrow">
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
+            <div class="img-wrap-team">
+              <picture>
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/melnik-desk-1x.webp 1x, 
+                                ./images/melnik-desk-2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/melnik-desk-1x.jpg 1x, 
+                                ./images/melnik-desk-2x.jpg 2x" type="image/jpeg">
+                <source srcset="./images/melnik-mob-1x.webp 1x, 
+                                ./images/melnik-mob-2x.webp 2x" type="image/webp">
+                <source srcset="./images/melnik-mob-1x.jpg 1x, 
+                                ./images/melnik-mob-2x.jpg 2x" type="image/jpeg">
+                <img class="img-team-section" src="./images/melnik-desk-1x.jpg" alt="">
+              </picture>
+            </div>
+            <div class="about-member-wrap">
+              <div class="nav-team-section">
+                <div class="nav-team-section__list-item">
+                  <a class="nav-team-section__link" href="">
+                    <div class="about-member-team">
+                      <div class="name-position">
+                        <span class="team-member">Владислав Мельник</span>
+                        <span class="position-team">Associate</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="nav-team-section__list-item-1">
+                  <a href="">
+                    <div class="wrap-arrow">
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
+            <div class="img-wrap-team">
+              <picture>
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/gudimenko-desk-1x.webp 1x, 
+                                ./images/gudimenko-desk-2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/gudimenko-desk-1x.jpg 1x, 
+                                ./images/gudimenko-desk-2x.jpg 2x" type="image/jpeg">
+                <source srcset="./images/gudimenko-mob-1x.webp 1x, 
+                                ./images/gudimenko-mob-2x.webp 2x" type="image/webp">
+                <source srcset="./images/gudimenko-mob-1x.jpg 1x, 
+                                ./images/gudimenko-mob-2x.jpg 2x" type="image/jpeg">
+                <img class="img-team-section" src="./images/gudimenko-desk-1x.jpg" alt="">
+              </picture>
+            </div>
+            <div class="about-member-wrap">
+              <div class="nav-team-section">
+                <div class="nav-team-section__list-item">
+                  <a class="nav-team-section__link" href="">
+                    <div class="about-member-team">
+                      <div class="name-position">
+                        <span class="team-member">Юлія Гудименко</span>
+                        <span class="position-team">Associate</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="nav-team-section__list-item-1">
+                  <a href="">
+                    <div class="wrap-arrow">
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
+            <div class="img-wrap-team">
+              <picture>
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/kobzar-desk-1x.webp 1x, 
+                                ./images/kobzar-desk-2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/kobzar-desk-1x.jpg 1x, 
+                                ./images/kobzar-desk-2x.jpg 2x" type="image/jpeg">
+                <source srcset="./images/kobzar-mob-1x.webp 1x, 
+                                ./images/kobzar-mob-2x.webp 2x" type="image/webp">
+                <source srcset="./images/kobzar-mob-1x.jpg 1x, 
+                                ./images/kobzar-mob-2x.jpg 2x" type="image/jpeg">
+                <img class="img-team-section" src="./images/kobzar-desk-1x.jpg" alt="">
+              </picture>
+            </div>
+            <div class="about-member-wrap">
+              <div class="nav-team-section">
+                <div class="nav-team-section__list-item">
+                  <a class="nav-team-section__link" href="">
+                    <div class="about-member-team">
+                      <div class="name-position">
+                        <span class="team-member">Оксана Кобзар</span>
+                        <span class="position-team">Equity partner</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="nav-team-section__list-item-1">
+                  <a href="">
+                    <div class="wrap-arrow">
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
+            <div class="img-wrap-team">
+              <picture>
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/melnik2-desk-1x.webp 1x, 
+                                ./images/melnik2-desk-2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1200px)" 
+                        srcset="./images/melnik2-desk-1x.jpg 1x, 
+                                ./images/melnik2-desk-2x.jpg 2x" type="image/jpeg">
+                <source srcset="./images/melnik2-mob-1x.webp 1x, 
+                                ./images/melnik2-mob-2x.webp 2x" type="image/webp">
+                <source srcset="./images/melnik2-mob-1x.jpg 1x, 
+                                ./images/melnik2-mob-2x.jpg 2x" type="image/jpeg">
+                <img class="img-team-section" src="./images/melnik2-desk-1x.jpg" alt="">
+              </picture>
+            </div>
+            <div class="about-member-wrap">
+              <div class="nav-team-section">
+                <div class="nav-team-section__list-item">
+                  <a class="nav-team-section__link" href="">
+                    <div class="about-member-team">
+                      <div class="name-position">
+                        <span class="team-member">Владислав Мельник</span>
+                        <span class="position-team">Associate</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="nav-team-section__list-item-1">
+                  <a href="">
+                    <div class="wrap-arrow">
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="footer-section">
+      <div class="container d-flex flex-direction-column align-items-center container-desktop-footer">
+        <div class="group-address-contacts-section-contacts">
+          <div class="group-address-contacts">
+            <h1 class="title-footer">
+              Одеса, Адміральський пр., 3
+            </h1>
+            <span class="bullet"></span>
+            <p class="descr-footer">
+              Подивитися на мапі
+            </p>
+          </div>
+          <div class="group-contacts-section-contacts">
+            <ul class="nav-footer">
+              <li class="nav-footer-list-item">
+                <a href="" class="nav-footer-link">
+                  <span class="icon-facebook icon-facebook-colored2"></span></a>
+              </li>
+              <span class="bullet"></span>
+              <li class="nav-footer-list-item">
+                <a href="tel:+38(050)3901591" class="nav-footer-tel">+38 (050) 390 15 91</a>
+              </li>
+              <span class="bullet"></span>
+              <li class="nav-footer-list-item">
+                <a href="mailto:contact@hlegals.net" class="nav-footer-email">contact@hlegals.net</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div right-column>
+          <span class="footer-end">© 2021 ТОВ Юридична компанія «HLEGALS»</span>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+
+  <div class="modal fade" id="nav_modal" tabindex="-1" aria-labelledby="navigation" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="d-flex justify-content-end">
+            <button type="button" class="modal-nav-close-button" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <nav class="mobile-nav">
+            <ul class="mobile-nav__list">
+              <li class="mobile-nav__list-item">
+                <a href="./about.html" class="mobile-nav__link">про нас</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./services.html" class="mobile-nav__link">послуги</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./team.html" class="mobile-nav__link">команда</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./publications.html" class="mobile-nav__link">публікації</a>
+              </li>
+              <li class="mobile-nav__list-item">
+                <a href="./contacts.html" class="mobile-nav__link">контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./bootstrap/js/dist/util.js"></script>
+  <script src="./bootstrap/js/dist/modal.js"></script>
+</body>
+</html>
