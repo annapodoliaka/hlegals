@@ -179,7 +179,9 @@
   @include media-breakpoint-up(xl) {
     font-size: 32px;
     line-height: (32 / 38);
-    color: linear-gradient(#F0145A 100%, #EF8080 100%);
+    background-image: linear-gradient(to right,#F0145A, #EF8080);
+    color: transparent;
+    -webkit-background-clip: text;
     }
 }
 .form-descr {

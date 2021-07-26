@@ -1,0 +1,169 @@
+.team-section {
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 14px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-bottom: 18px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 28px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding-bottom: 60px;
+  }
+}
+.title-team-section {
+  display: block;
+  font-size: 28px;
+  line-height: (38 / 32);
+  font-weight: 600;
+  background-image: linear-gradient(to right,#F0145A, #EF8080);
+  color: transparent;
+  -webkit-background-clip: text;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 30px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-bottom: 38px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 48px;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 42px;
+    line-height: (50/ 42);
+    padding: 82px 106px 80px 150px;
+  }
+}
+.nav-team-section {
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.nav-team-section__list-item-1 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: $grey-bg-color;
+  display: inline-flex;
+  @include media-breakpoint-up(xl) {
+    margin-left: 20px;
+  }
+}
+.nav-team-section__link {
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+  }
+}
+.wrap-arrow {
+  padding-left: 8px;
+  @include media-breakpoint-up(xl) {
+    padding-left: 10px;
+  }
+}
+.arrow {
+  border: solid $active-regular-color;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+}  
+.circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: $grey-bg-color;
+}
+.img-wrap-team {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0px;
+  }
+}
+.img-team-section {
+  width: 100%;
+  height: auto;
+}
+.name-position {
+  display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.about-member-wrap {
+  width: 50%;
+  @include media-breakpoint-up(md) {
+    width: 36%;
+  }
+  @include media-breakpoint-up(xl) {
+    width: 100%;
+  }
+}
+.img-wrap-team {
+  width: 50%;
+  @include media-breakpoint-up(md) {
+    width: 64%;
+  }
+  @include media-breakpoint-up(xl) {
+    width: auto;
+  }
+}
+.about-member-team {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  @include media-breakpoint-up(xl) {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+.team-member {
+  font-size: 16px;
+  line-height: (21 / 18);
+  font-weight: 500;font-size: 16px;
+  color: $main-color;
+}
+.team-member1 {
+  @include media-breakpoint-up(lg) {
+    font-size: 15px;
+  }
+}
+.position-team {
+  font-size: 16px;
+  line-height: (22 / 16);
+  padding-top: 5px;
+  padding-bottom: 20px;
+  color: $grey-bg-text-color;
+}
+.footer-section {
+  background-color: $grey-bg-color;
+}
+.desktop-team {
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+.position-blocks1 {
+  @include media-breakpoint-up(xl) {
+    order: 3;
+  }
+}
+.position-blocks2 {
+  @include media-breakpoint-up(xl) {
+    order: 2;
+  }
+}
+.position-blocks3 {
+  @include media-breakpoint-up(xl) {
+    order: 1;
+  }
+}

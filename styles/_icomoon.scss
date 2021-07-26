@@ -21,6 +21,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
   
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
 .icon-case:before {
   content: "\e900";
 }
