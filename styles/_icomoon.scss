@@ -21,6 +21,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
   
+.icon-10:before {
+  content: "\e908";
+}
+.icon-30:before {
+  content: "\e90b";
+}
+.icon-500:before {
+  content: "\e90c";
+}
 .icon-angle-right:before {
   content: "\f105";
 }

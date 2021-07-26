@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-3">
           <a href="/" aria-label="home page">
-            <img src="./images/logo-team.svg" width="400" height="60" alt="hlegals logo" aria-hidden="true">
+            <img src="./images/logo-team.svg" width="400" height="60" loading="lazy" alt="hlegals logo" aria-hidden="true">
           </a>
         </div>
         <div class="col-6 offset-3">
@@ -98,9 +98,9 @@
       </div>
       <div class="d-flex justify-content-between align-items-center">
         <a href="/" aria-label="home page">
-          <img src="./images/logo-contacts-mobile.svg" alt="hlegals logo" aria-hidden="true">
+          <img src="./images/logo-contacts-mobile.svg" alt="логотип hlegals" aria-hidden="true">
         </a>
-        <button class="nav-button d-xl-none" type="button" data-toggle="modal" data-target="#nav_modal">
+        <button class="nav-button d-xl-none" type="button" data-toggle="modal" data-target="#nav_modal" aria-label="навiгацiйне меню">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 10H25" stroke="#323264" stroke-width="2"/>
             <path d="M7 16H25" stroke="#323264" stroke-width="2"/>
@@ -120,17 +120,33 @@
           <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
             <div class="img-wrap-team">
               <picture>
-                <source media="(min-width: 1400px)" 
-                        srcset="./images/maiboroda-desk-1x.webp 1x, 
-                                ./images/maiboroda-desk-2x.webp 2x" type="image/webp">
-                <source media="(min-width: 1400px)" 
-                        srcset="./images/maiboroda-desk-1x.jpg 1x, 
-                                ./images/maiboroda-desk-2x.jpg 2x" type="image/jpeg">
-                <source srcset="./images/maiboroda-mob-1x.webp 1x, 
-                                ./images/maiboroda-mob-2x.webp 2x" type="image/webp">
-                <source srcset="./images/maiboroda-mob-1x.jpg 1x, 
-                                ./images/maiboroda-mob-2x.jpg 2x" type="image/jpeg">
-                <img class="img-team-section" src="./images/maiboroda-desk-1x.jpg" alt="">
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/maiboroda-desk-1x.webp 1x, ./images/maiboroda-desk-2x.webp 2x" 
+                  type="image/webp"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/maiboroda-desk-1x.jpg 1x, ./images/maiboroda-desk-2x.jpg 2x"
+                  type="image/jpeg"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  srcset="./images/maiboroda-mob-1x.webp 1x, ./images/maiboroda-mob-2x.webp 2x" 
+                  type="image/webp"
+                  width="120"
+                  height="145"
+                >
+                <source 
+                  srcset="./images/maiboroda-mob-1x.jpg 1x, ./images/maiboroda-mob-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="120"
+                  height="145"
+                >
+                <img class="img-team-section" src="./images/maiboroda-desk-1x.jpg" loading="lazy" alt="портрет члена команди Дениса Майбороди">
               </picture>
             </div>
             <div class="about-member-wrap">
@@ -158,17 +174,33 @@
           <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
             <div class="img-wrap-team">
               <picture>
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/oleksandrovskii-desk-1x.webp 1x, 
-                                ./images/oleksandrovskii-desk-2x.webp 2x" type="image/webp">
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/oleksandrovskii-desk-1x.jpg 1x, 
-                                ./images/oleksandrovskii-desk-2x.jpg 2x" type="image/jpeg">
-                <source srcset="./images/oleksandrovskii-mob-1x.webp 1x, 
-                                ./images/oleksandrovskii-mob-2x.webp 2x" type="image/webp">
-                <source srcset="./images/oleksandrovskii-mob-1x.jpg 1x, 
-                                ./images/oleksandrovskii-mob-2x.jpg 2x" type="image/jpeg">
-                <img class="img-team-section" src="./images/oleksandrovskii-desk-1x.jpg" alt="">
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/oleksandrovskii-desk-1x.webp 1x, ./images/oleksandrovskii-desk-2x.webp 2x" 
+                  type="image/webp"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/oleksandrovskii-desk-1x.jpg 1x, ./images/oleksandrovskii-desk-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  srcset="./images/oleksandrovskii-mob-1x.webp 1x, ./images/oleksandrovskii-mob-2x.webp 2x" 
+                  type="image/webp"
+                  width="120"
+                  height="145"
+                >
+                <source
+                  srcset="./images/oleksandrovskii-mob-1x.jpg 1x, ./images/oleksandrovskii-mob-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="120"
+                  height="145"
+                >
+                <img class="img-team-section" src="./images/oleksandrovskii-desk-1x.jpg" loading="lazy" alt="портрет члена команди Олександра Олександровського">
               </picture>
             </div>
             <div class="about-member-wrap">
@@ -196,17 +228,33 @@
           <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
             <div class="img-wrap-team">
               <picture>
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/melnik-desk-1x.webp 1x, 
-                                ./images/melnik-desk-2x.webp 2x" type="image/webp">
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/melnik-desk-1x.jpg 1x, 
-                                ./images/melnik-desk-2x.jpg 2x" type="image/jpeg">
-                <source srcset="./images/melnik-mob-1x.webp 1x, 
-                                ./images/melnik-mob-2x.webp 2x" type="image/webp">
-                <source srcset="./images/melnik-mob-1x.jpg 1x, 
-                                ./images/melnik-mob-2x.jpg 2x" type="image/jpeg">
-                <img class="img-team-section" src="./images/melnik-desk-1x.jpg" alt="">
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/melnik-desk-1x.webp 1x, ./images/melnik-desk-2x.webp 2x" 
+                  type="image/webp"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/melnik-desk-1x.jpg 1x, ./images/melnik-desk-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  srcset="./images/melnik-mob-1x.webp 1x, ./images/melnik-mob-2x.webp 2x" 
+                  type="image/webp"
+                  width="120"
+                  height="145"
+                >
+                <source 
+                  srcset="./images/melnik-mob-1x.jpg 1x, ./images/melnik-mob-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="120"
+                  height="145"
+                >
+                <img class="img-team-section" src="./images/melnik-desk-1x.jpg" loading="lazy" alt="портрет члена команди Владислава Мельника">
               </picture>
             </div>
             <div class="about-member-wrap">
@@ -234,17 +282,33 @@
           <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
             <div class="img-wrap-team">
               <picture>
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/gudimenko-desk-1x.webp 1x, 
-                                ./images/gudimenko-desk-2x.webp 2x" type="image/webp">
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/gudimenko-desk-1x.jpg 1x, 
-                                ./images/gudimenko-desk-2x.jpg 2x" type="image/jpeg">
-                <source srcset="./images/gudimenko-mob-1x.webp 1x, 
-                                ./images/gudimenko-mob-2x.webp 2x" type="image/webp">
-                <source srcset="./images/gudimenko-mob-1x.jpg 1x, 
-                                ./images/gudimenko-mob-2x.jpg 2x" type="image/jpeg">
-                <img class="img-team-section" src="./images/gudimenko-desk-1x.jpg" alt="">
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/gudimenko-desk-1x.webp 1x, ./images/gudimenko-desk-2x.webp 2x" 
+                  type="image/webp"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/gudimenko-desk-1x.jpg 1x, ./images/gudimenko-desk-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  srcset="./images/gudimenko-mob-1x.webp 1x, ./images/gudimenko-mob-2x.webp 2x" 
+                  type="image/webp"
+                  width="120"
+                  height="145"
+                >
+                <source 
+                  srcset="./images/gudimenko-mob-1x.jpg 1x, ./images/gudimenko-mob-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="120"
+                  height="145"
+                >
+                <img class="img-team-section" src="./images/gudimenko-desk-1x.jpg" loading="lazy" alt="портрет члена команди Юлії Гудименко">
               </picture>
             </div>
             <div class="about-member-wrap">
@@ -272,17 +336,33 @@
           <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
             <div class="img-wrap-team">
               <picture>
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/kobzar-desk-1x.webp 1x, 
-                                ./images/kobzar-desk-2x.webp 2x" type="image/webp">
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/kobzar-desk-1x.jpg 1x, 
-                                ./images/kobzar-desk-2x.jpg 2x" type="image/jpeg">
-                <source srcset="./images/kobzar-mob-1x.webp 1x, 
-                                ./images/kobzar-mob-2x.webp 2x" type="image/webp">
-                <source srcset="./images/kobzar-mob-1x.jpg 1x, 
-                                ./images/kobzar-mob-2x.jpg 2x" type="image/jpeg">
-                <img class="img-team-section" src="./images/kobzar-desk-1x.jpg" alt="">
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/kobzar-desk-1x.webp 1x, ./images/kobzar-desk-2x.webp 2x"
+                  type="image/webp"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/kobzar-desk-1x.jpg 1x, ./images/kobzar-desk-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  srcset="./images/kobzar-mob-1x.webp 1x, ./images/kobzar-mob-2x.webp 2x" 
+                  type="image/webp"
+                  width="120"
+                  height="145"
+                >
+                <source 
+                  srcset="./images/kobzar-mob-1x.jpg 1x, ./images/kobzar-mob-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="120"
+                  height="145"
+                >
+                <img class="img-team-section" src="./images/kobzar-desk-1x.jpg" loading="lazy" alt="портрет члена команди Оксани Кобзар">
               </picture>
             </div>
             <div class="about-member-wrap">
@@ -310,17 +390,33 @@
           <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center desktop-team">
             <div class="img-wrap-team">
               <picture>
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/melnik2-desk-1x.webp 1x, 
-                                ./images/melnik2-desk-2x.webp 2x" type="image/webp">
-                <source media="(min-width: 1200px)" 
-                        srcset="./images/melnik2-desk-1x.jpg 1x, 
-                                ./images/melnik2-desk-2x.jpg 2x" type="image/jpeg">
-                <source srcset="./images/melnik2-mob-1x.webp 1x, 
-                                ./images/melnik2-mob-2x.webp 2x" type="image/webp">
-                <source srcset="./images/melnik2-mob-1x.jpg 1x, 
-                                ./images/melnik2-mob-2x.jpg 2x" type="image/jpeg">
-                <img class="img-team-section" src="./images/melnik2-desk-1x.jpg" alt="">
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/melnik2-desk-1x.webp 1x, ./images/melnik2-desk-2x.webp 2x" 
+                  type="image/webp"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  media="(min-width: 1200px)" 
+                  srcset="./images/melnik2-desk-1x.jpg 1x, ./images/melnik2-desk-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="413"
+                  height="500"
+                >
+                <source 
+                  srcset="./images/melnik2-mob-1x.webp 1x, ./images/melnik2-mob-2x.webp 2x" 
+                  type="image/webp"
+                  width="120"
+                  height="145"
+                >
+                <source 
+                  srcset="./images/melnik2-mob-1x.jpg 1x, ./images/melnik2-mob-2x.jpg 2x" 
+                  type="image/jpeg"
+                  width="120"
+                  height="145"
+                >
+                <img class="img-team-section" src="./images/melnik2-desk-1x.jpg" loading="lazy" alt="портрет члена команди Владислава Мельника">
               </picture>
             </div>
             <div class="about-member-wrap">
@@ -354,9 +450,9 @@
       <div class="container d-flex flex-direction-column align-items-center container-desktop-footer">
         <div class="group-address-contacts-section-contacts">
           <div class="group-address-contacts">
-            <h1 class="title-footer">
+            <span class="title-footer">
               Одеса, Адміральський пр., 3
-            </h1>
+            </span>
             <span class="bullet"></span>
             <p class="descr-footer">
               Подивитися на мапі
@@ -394,7 +490,7 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="d-flex justify-content-end">
-            <button type="button" class="modal-nav-close-button" data-dismiss="modal" aria-label="close">
+            <button type="button" class="modal-nav-close-button" data-dismiss="modal" aria-label="замкнути">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
